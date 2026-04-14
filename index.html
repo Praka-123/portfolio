@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakash Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h2 class="mainhead nav-animate">Prakash</h2>
+
+        <ul>
+            <li><a href="#about" class="nav-animate">About</a></li>
+            <li><a href="#skills" class="nav-animate">Skills</a></li>
+            <li><a href="#projects" class="nav-animate">Projects</a></li>
+            <li><a href="#contact" class="nav-animate">Contact</a></li>
+        </ul>
+
+        <p id="darkToggle">🌙</p>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h1>Hi, I'm <span class="sub">Prakash Raj</span></h1>
+        <h2 id="typing"></h2>
+        <a href="#contact" class="btn btn-primary mt-4">Say Hello 👋</a>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="reveal h-50">
+        <div class="about-container">
+            <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=400" class="col-sm-6">
+            <div class="col-sm-6">
+                <h2 class="subhead">About Me</h2>
+                <p>
+                    I am a passionate Computer Science Engineering student with a strong interest in building modern web applications and solving real-world problems.
+                </p>
+                <div class="row mt-2">
+                    <div >⚡ Fast Learner</div>
+                    <div >💡 Problem Solver</div>
+                    <div >🚀 Self Motivated</div>
+                    <div >🤝 Team Player</div>
+                    <div >🎯 Goal Oriented</div>
+                    <div >🔥 Consistent</div>
+                </div>
+                <p class="mt-3">Currently Learning: <b>Java, Data Analytics, Generative AI</b></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="reveal">
+        <h2 class="subhead">My Skills</h2>
+
+        <div class="skill">
+            <p>HTML</p>
+            <div class="bar">
+                <div class="progress html"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>CSS</p>
+            <div class="bar">
+                <div class="progress css"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="bar">
+                <div class="progress js"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>Python</p>
+            <div class="bar">
+                <div class="progress js"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>SQL</p>
+            <div class="bar">
+                <div class="progress js"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="text-left m-2">
+        <h2 class="subhead">Projects</h2>
+
+        <div class="row g-4 m-4">
+
+            <div class="col-md-4">
+                <div class="project">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+                    <div class="overlay">
+                        <h4>TechLearn</h4>
+                        <p>Modern E-learning UI</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="project">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97">
+                    <div class="overlay">
+                        <h4>Portfolio</h4>
+                        <p>Personal website</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="reveal m-2">
+        <h2 class="subhead">Contact Me</h2>
+
+        <form id="contactForm">
+            <input type="text" placeholder="Name" id="name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button class="btn btn-outline-success">Send Message</button>
+        </form>
+
+        <div class="social text-center">
+            <a href="https://github.com/Praka-123" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/prakashraj143/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Prakash Raj</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
