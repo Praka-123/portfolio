@@ -2,6 +2,7 @@
 document.getElementById("darkToggle").onclick = () => {
     document.body.classList.toggle("bg-dark");
     document.body.classList.add("white");
+    document.body.classList.add("colorabout")
 };
 
 // Typing Effect
